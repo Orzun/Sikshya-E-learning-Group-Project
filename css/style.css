@@ -1,5 +1,3 @@
-
-
 html,
 body {
 	margin: 0;
@@ -58,9 +56,7 @@ label {
 	margin: 0;
 }
 
-/*-- header --*/
 
-/*-- Index-Page-Styling --*/
 
 /*-- top-bar-w3-agile --*/
 
@@ -107,6 +103,9 @@ label {
 	display: inline-block;
 	border: 2px solid transparent;
 	font-weight: bold;
+}
+.top_nav{
+	color: #d33434;
 }
 
 /*-- top-bar_sub --*/
@@ -199,7 +198,9 @@ h6 a {
 .slider-top span {
 	font-weight: 600;
 }
-
+.w3-button{
+	color: #a52121s;
+}
 /*-- //Slider --*/
 
 .navbar {
@@ -216,7 +217,7 @@ h6 a {
 }
 
 .navbar-default .navbar-brand {
-	color: #fff;
+	color: #d33434;
 	font-size: 48px;
 	text-decoration: none;
 	font-weight: 400;
@@ -305,7 +306,7 @@ ul.top_nav li {
 }
 
 ul.top_nav li a {
-	color: #fff;
+	color: #a52121;
 	font-size: 0.9em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -622,6 +623,7 @@ ul.dropdown-menu li a {
 
 .banner_bottom {
 	padding: 7em 0;
+	color: red;
 }
 
 h3.headerw3 {
@@ -1346,46 +1348,8 @@ label.header {
 	transition: 0.5s all;
 }
 
-/*--placeholder-color--*/
-
-.register-form input::-webkit-input-placeholder {
-	color: #5a5656;
-}
-
-.register-form input:-moz-placeholder {
-	/* Firefox 18- */
-	color: #5a5656;
-}
-
-.register-form input::-moz-placeholder {
-	/* Firefox 19+ */
-	color: #5a5656;
-}
-
-.register-form input:-ms-input-placeholder {
-	color: #5a5656;
-}
-
-/*--//placeholder-color--*/
-
-/* //join page */
-
-/*-- //inner_banner --*/
 
 /*--//copy-right--*/
-
-#toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	overflow: hidden;
-	width: 48px;
-	height: 48px;
-	border: none;
-	text-indent: 100%;
-	background: url(../images/top_up.png) no-repeat 0px 0px;
 }
 
 /*--//footer--*/
@@ -2153,6 +2117,7 @@ label.header {
 	}
 	.navbar-default .navbar-brand {
 		font-size: 40px;
+		color: 
 	}
 	.banner-top,
 	.banner-top1,
